@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
   "initialRows": 30,
   "initialCols": 120,
   "alwaysShowTabs": true,
@@ -265,5 +265,13 @@
       "white": "#D3D7CF",
       "yellow": "#C4A000"
     }
+  ],
+  "keybindings": [
+    { "command": { "action": "resizePane", "direction": "down" }, "keys": [ "ctrl+shift+down" ] },
+    { "command": { "action": "resizePane", "direction": "left" }, "keys": [ "ctrl+shift+left" ] },
+    { "command": { "action": "resizePane", "direction": "right" }, "keys": [ "ctrl+shift+right" ] },
+    { "command": { "action": "resizePane", "direction": "up" }, "keys": [ "ctrl+shift+up" ] },
+    { "command": "splitHorizontal", "keys": [ "ctrl+shift+h" ] },
+    { "command": "splitVertical", "keys": [ "ctrl+shift+v" ] }
   ]
 }
